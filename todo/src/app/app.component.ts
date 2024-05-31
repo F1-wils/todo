@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LogoComponent } from './logo/logo.component';
+import { LogoComponent } from './share/logo/logo.component';
 
 
 @Component({
