@@ -35,9 +35,42 @@ ul {
 #search {
     margin: 0 auto;
     display: inline-block;
-    border-radius: 1cm;
+    border-radius: 2cm;
     width: auto;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  justify-content: center;
+ width: 80%;
+ height: 5cm;
+ margin: auto;
+ background-color: white;
+}
 
+.div12{
+  width: 80%;
+  height: 100%;
+  align-content: center;
+  margin-right: 1cm;
+  border-style: solid;
+  border: 2px solid rgb(168, 166, 166);
+  border-radius: 5px
+}
+.div13{
+  width: 80%;
+  height: 100%;
+  align-content: center;
+  border: 2px solid rgb(168, 166, 166);
+  border-radius: 5px
  
+}
+.div14{
+  width: 80%;
+  height: 100%;
+  align-content: center;
+  border: 2px solid rgb(168, 166, 166);
+  border-radius: 5px;
+  margin-left:1cm;
+}
