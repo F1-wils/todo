@@ -47,6 +47,39 @@ import { CommonModule } from '@angular/common';
   </div>
 </div>
    
+<!-- table on the dashboàard  -->
+<table>
+  <thead>
+    <H1>USERS DATA</H1>
+  </thead>
+  <tbody>
+    <!-- table data for each users  -->
+    <tr>
+       <a class="navbar-brand" href="#">
+         <img src="logo.png" alt="profile">
+        </a>
+        <td>
+        <tr>Ebanje</tr>
+      <br>
+      <tr>ebanje1gmail.com</tr>
+        </td>
+      </tr>
+                <tr>
+                <a class="navbar-brand" href="#">
+                  <img src="logo.png" alt="profile">
+                  </a>
+                  <td>
+                  <tr>Ebanje</tr>
+                <br>
+                <tr>ebanje1gmail.com</tr>
+                  </td>
+                </tr>
+                
+     
+  
+  </tbody>
+</table>
+
   `,
   styleUrl: './dashboard.component.css'
 })
