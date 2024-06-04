@@ -25,7 +25,19 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: rgb(20, 182, 231);
+    background-color: rgb(216, 222, 224);
+
   }
+  .box{
+    width: 100%;
+}
+
+#search {
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 1cm;
+    width: auto;
+}
+
 
  
