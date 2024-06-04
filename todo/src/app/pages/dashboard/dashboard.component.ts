@@ -19,12 +19,16 @@ import { CommonModule } from '@angular/common';
 
 
     <div class="search-head" style="padding-left: 40%;padding-right: 40%; margin: 1cm;">
-        <form class="search-bar" action="">
-            <input class="" type="text" placeholder="Search Here"/> 
-            <button type="submit">Search</button>             
+    
+    <form class="search-bar" action="">
+            <input class="" type="text"  placeholder="Search Here"/> 
+            <a href='https://dryicons.com/icon-packs/symbolize-icons-set'> Icon by Dryicons </a>
+            
+                        
       </form>
+       
      </div>
-
+    
       <!-- floating divs  -->
 
 
@@ -51,7 +55,7 @@ import { CommonModule } from '@angular/common';
 <div class="tablex">
 <table   class="tabley" style="border=1 frame=hsides rules=rows">
   <th>
-    <H1>USERS DATA</H1>
+    <H3>USERS DATA</H3>
   </th>
   <tbody>
     <tr>

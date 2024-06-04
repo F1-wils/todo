@@ -55,14 +55,14 @@ ul {
   align-content: center;
   margin-right: 1cm;
   border-style: solid;
-  border: 2px solid rgb(168, 166, 166);
+  border: 1px solid rgb(168, 166, 166);
   border-radius: 5px
 }
 .div13{
   width: 80%;
   height: 100%;
   align-content: center;
-  border: 2px solid rgb(168, 166, 166);
+  border: 1px solid rgb(168, 166, 166);
   border-radius: 5px
  
 }
@@ -70,20 +70,22 @@ ul {
   width: 80%;
   height: 100%;
   align-content: center;
-  border: 2px solid rgb(168, 166, 166);
+  border: 1px solid rgb(168, 166, 166);
   border-radius: 5px;
 
   
 } 
 table, th, td {
-  border: 1cm solid rgb(185, 175, 175);
+  border: 1cm solid rgb(238, 240, 239);
 }
 .tablex{
   margin: 13%;
   margin-top: 2%;
   align-content: center;
    width: 70%;
-   border: 2px solid rgb(168, 166, 166);
+   background-color: white;
+   border: 2px solid rgb( rgb(186, 190, 186)) ;
+   /* border: 2px solid rgb(168, 166, 166); */
    align-items: center;
    border-radius: 10px;
    align-self: center;
