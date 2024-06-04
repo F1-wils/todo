@@ -73,4 +73,24 @@ ul {
   border: 2px solid rgb(168, 166, 166);
   border-radius: 5px;
 
+  
+} 
+table, th, td {
+  border: 1cm solid rgb(185, 175, 175);
+}
+.tablex{
+  margin: 13%;
+  margin-top: 2%;
+  align-content: center;
+   width: 70%;
+   border: 2px solid rgb(168, 166, 166);
+   align-items: center;
+   border-radius: 10px;
+   align-self: center;
+   padding-left: auto;
+}
+.tabley{
+  
+  width: 100%;
+  
 }

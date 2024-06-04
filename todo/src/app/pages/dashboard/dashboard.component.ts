@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
     <header>
     <ul>
   <li><a href="#home">DASHBOARD APP</a></li>
-  <li style="float:right"><a class="navbar-brand" href="#">
+  <li style="float:right"><a class="navbar-brand" href="settings">
          <img src="logo.png" alt="profile">
         </a></li>
 </ul>
@@ -48,38 +48,25 @@ import { CommonModule } from '@angular/common';
 </div>
    
 <!-- table on the dashboàard  -->
-<table>
-  <thead>
+<div class="tablex">
+<table   class="tabley" style="border=1 frame=hsides rules=rows">
+  <th>
     <H1>USERS DATA</H1>
-  </thead>
+  </th>
   <tbody>
-    <!-- table data for each users  -->
     <tr>
-       <a class="navbar-brand" href="#">
-         <img src="logo.png" alt="profile">
-        </a>
-        <td>
-        <tr>Ebanje</tr>
-      <br>
-      <tr>ebanje1gmail.com</tr>
-        </td>
-      </tr>
-                <tr>
-                <a class="navbar-brand" href="#">
-                  <img src="logo.png" alt="profile">
-                  </a>
-                  <td>
-                  <tr>Ebanje</tr>
-                <br>
-                <tr>ebanje1gmail.com</tr>
-                  </td>
-                </tr>
-                
-     
-  
+      <td>1</td>
+      
+    </tr>
+    <tr>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>
-
+</div>
   `,
   styleUrl: './dashboard.component.css'
 })
