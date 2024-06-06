@@ -3,24 +3,31 @@
 
   <div class="holder" >
     
-    <app-logo></app-logo>
+    <div class="logo-container">
+        <app-logo></app-logo>
+    </div>
     
+    
+    <div class="form-container">
         <h1>Login Account</h1>
-        <form class="row position-relative w-50 p-3">
-            <div class="mb-2">
-                <div class="col-sm-10 shadow p-3 mb-5 rounded">
+        <p>Enter your email to sign in for this app</p>
+        <form class="row position-relative w-50 p-2">
+            <div class="mb-1">
+                <div class="col-sm-10 shadow p-2 mb-3 rounded">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
                 </div>
             </div>
-            <div class="mb-2">
-                <div class="col-sm-10 shadow p-3 mb-5 rounded">
+            <div class="mb-1">
+                <div class="col-sm-10 shadow p-2 mb-3 rounded">
                 <input type="password" class="form-control" id="inputPassword">
                 </div>
             </div>
-            <button type="button" class="btn btn-dark shadow-sm p-3 mb-5 rounded">Sign in</button>
+            <button type="button" class="btn btn-dark shadow-sm p-3 mb-3 rounded">Sign in</button>
+            <button type="button" class="btn btn-dark shadow-sm p-3 mb-5 rounded" routerLink="/register">Sign up</button>
         </form>
+    </div>
        
-    </div> 
+ </div> 
     
 </div>
 
