@@ -7,6 +7,7 @@ import { AccountComponent } from './pages/account/account.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 
 export const routes: Routes = [
+    { path: '', component: AuthenticationComponent },
     { path: 'login', component: AuthenticationComponent },
     { path: 'register', component: RegistrationComponent },
     { path: 'account', component: AccountComponent },
