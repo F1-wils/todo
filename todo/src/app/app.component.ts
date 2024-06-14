@@ -3,13 +3,15 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { AuthenticationComponent } from './pages/authentication/authentication.component';
+import { register } from 'node:module';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive ,DashboardComponent,AuthenticationComponent],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive,RegistrationComponent ],
   templateUrl:'./app.component.html' ,
   styleUrls: ['./app.component.css']
 })
