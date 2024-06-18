@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
     <section>
     <header class="brand-name">
       <div style="  width:300px;
-  margin-top: 1.5cm; margin-left: 1cm;">
-      <a href="url" style="color: black; font-size:1.6cm;font-weight: bolder; text-decoration: none;">TO-DO</a>
+ ; margin-left: 1%;">
+      <a href="url" style="color: black; font-size:1.2cm;font-weight: 450; text-decoration: none;">TO-DO</a>
  
       </div>
      </header>
