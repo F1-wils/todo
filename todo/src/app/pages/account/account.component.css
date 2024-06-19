@@ -1,0 +1,45 @@
+#container{
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+   }
+.holder{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/pictures/front-view-stacked-books-earth-globe-open-book-pencils-education-day.jpg);
+    background-size:cover;
+    padding-left: 2cm;
+    
+
+}
+#bt1{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+.form1{
+   margin-top: 15%;
+   /* background-color: black; */
+   justify-content: center;
+   margin-right: 2%;
+   
+}
+#head{
+    justify-content: center;
+    margin-left: 15%;
+}
+
+#mov{
+    float: left;
+}
+.acc{
+    display: flex;
+    float: left ;
+    padding: 7.5%;
+    padding-top: 20%;
+}
+#acc12{
+    margin: 5%;
+}
